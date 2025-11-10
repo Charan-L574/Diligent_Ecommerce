@@ -7,13 +7,18 @@ Implement JWT authentication with persistent login using localStorage and protec
 The backend should have modular routing and CRUD operations for users, products, and carts.
 Use Tailwind CSS for a clean, responsive UI.
 
-Create the technical architecture for the project showing how the frontend, backend, and MongoDB interact.
-Follow a three-tier structure (client, server, database) with MVC pattern for the backend.
-
 Set up the Express.js backend with MongoDB connection, dotenv for environment variables, and CORS..
 
 Define User, Product, and Cart models using Mongoose.
 Add password hashing with bcrypt for users and timestamps for all models.
+
+Create seed.js with 12 diverse products across categories:
+- Electronics (iPhone, Samsung, MacBook, Sony Headphones, Kindle)
+- Clothing (Levi's Jeans)
+- Sports (Nike Air Max)
+- Home & Kitchen (Instant Pot, Dyson Vacuum)
+- Books, Toys, Beauty products
+- Include realistic prices, brands, ratings, stock, images
 
 Build authentication routes for register and login using JWT.
 Add middleware to protect routes and verify tokens.
@@ -26,14 +31,6 @@ Each cart should be linked to a specific user and return total quantity and pric
 
 Build frontend pages using React and Tailwind CSS — Home, Products, Product Details, Cart, Login, Register, and Profile.
 Use React Router v6 for navigation and Context API for managing cart and authentication state.
-
-Create seed.js with 12 diverse products across categories:
-- Electronics (iPhone, Samsung, MacBook, Sony Headphones, Kindle)
-- Clothing (Levi's Jeans)
-- Sports (Nike Air Max)
-- Home & Kitchen (Instant Pot, Dyson Vacuum)
-- Books, Toys, Beauty products
-- Include realistic prices, brands, ratings, stock, images
 
 Connect the frontend to the backend using Axios.
 Handle login/register, product listing, and cart actions through REST API calls.
