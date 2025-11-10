@@ -1,7 +1,5 @@
 Used GitHub Copilot for My Project
 
-Assume you are a Coding Agent and helping me to Build a FullStack Project 
-
 Build a full-stack MVP for a modern e-commerce website called ShopEase using React.js, Node.js (Express), and MongoDB.
 The app should have Home, Product Listing, Product Details, Cart, Login, Register, and Profile pages.
 Use React Router v6 for navigation and Context API for cart management.
