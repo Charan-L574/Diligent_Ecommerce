@@ -1,0 +1,90 @@
+# AI PROMPTS USED FOR SHOPEASE E-COMMERCE PROJECT
+
+================================================================================
+1. INITIAL PROJECT SETUP
+================================================================================
+
+Build a full-stack MVP for a modern e-commerce website called "ShopEase" using React.js, Express.js, and MongoDB. 
+
+The frontend should be responsive and feature:
+- Home, Product Listing, Product Details, Cart, Login, Register, and Profile pages.
+- Use React Router v6 for navigation and Context API for cart management.
+- Implement JWT-based authentication with persistent login using localStorage.
+- Include protected routes for Cart and Profile pages.
+- Display dynamic cart count and total price.
+
+The backend should:
+- Use Node.js + Express with modular routing (authRoutes, productRoutes, cartRoutes).
+- Include controllers and models for Users, Products, and Cart.
+- Use MongoDB Compass with Mongoose schemas.
+- Implement JWT auth, bcrypt password hashing, and CRUD operations for products and carts.
+
+Ensure modern UI/UX design with Tailwind or Material UI, and mimic real e-commerce flow (like Amazon/Flipkart).
+Structure the project in a modular, scalable way with separate frontend and backend folders.
+
+================================================================================
+2. TECHNICAL ARCHITECTURE DOCUMENTATION
+================================================================================
+
+Add comprehensive technical architecture documentation to README including:
+- System architecture overview (3-tier diagram)
+- Technology stack tables
+- Architectural patterns (MVC, Component-Based, RESTful)
+- Data flow architecture
+- Database schema design
+- Security architecture
+- State management
+- API communication patterns
+- Build & deployment architecture
+- Performance optimizations
+- Error handling strategy
+
+================================================================================
+3. KEY FEATURE IMPLEMENTATION PROMPTS
+================================================================================
+
+AUTH SYSTEM:
+- JWT-based authentication with 7-day token expiration
+- bcrypt password hashing (10 salt rounds)
+- Protected route middleware
+- localStorage token persistence
+
+PRODUCT MANAGEMENT:
+- CRUD operations with search, filter, sort
+- Category and price range filtering
+- Stock management
+- Featured products
+
+SHOPPING CART:
+- Add/update/remove items
+- Quantity management
+- Automatic total calculation
+- User-specific cart persistence
+
+UI/UX DESIGN:
+- Responsive Tailwind CSS (mobile-first)
+- Product cards with images, pricing, ratings
+- Modern color scheme (blue/green)
+- Loading states and error handling
+
+================================================================================
+4. SAMPLE DATA GENERATION
+================================================================================
+
+Create seed.js with 12 diverse products across categories:
+- Electronics (iPhone, Samsung, MacBook, Sony Headphones, Kindle)
+- Clothing (Levi's Jeans)
+- Sports (Nike Air Max)
+- Home & Kitchen (Instant Pot, Dyson Vacuum)
+- Books, Toys, Beauty products
+- Include realistic prices, brands, ratings, stock, images
+
+================================================================================
+5. DOCUMENTATION
+================================================================================
+
+Create comprehensive documentation:
+- README.md - Full project overview, setup instructions, features
+- QUICKSTART.md - 5-minute setup guide
+- API_DOCUMENTATION.md - Complete API endpoint reference
+- .gitignore - node_modules, .env, dist, logs
